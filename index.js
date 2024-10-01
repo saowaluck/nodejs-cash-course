@@ -36,3 +36,8 @@ console.log(path.join(__dirname, 'data.txt'))
 
 
 
+//OS
+const os = require("os")
+console.log(os.cpus())
+console.log(os.homedir())
+console.log(os.uptime())
