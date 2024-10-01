@@ -1,13 +1,6 @@
 //import {calculateVat} from './utils'
 
 
-// Build in module
-// path
-// file-system
-// os
-// events
-// HTTP
-
 const http = require('http')
 http.createServer((req, res)=> {
   res.setHeader('Content-type', 'text/html')
@@ -15,3 +8,10 @@ http.createServer((req, res)=> {
   res.write('<h1>Hello</h1>')
   res.end()
 }).listen("5001")
+
+// Build in module
+// path
+// file-system
+// os
+// events
+// HTTP
