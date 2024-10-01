@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "dayjs": "^1.11.13"
+    "dayjs": "^1.11.13",
+    "nodemon": "^3.1.7"
   },
   "name": "nodejs-cash-course",
   "version": "1.0.0",
