@@ -1,0 +1,29 @@
+.body {
+    border: 0;    
+    padding: 0;
+    margin: 0 auto;
+}
+.navbar {
+    background-color: #353535;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.container > .navbar > ul > li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+}
+
+.container > .navbar> ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+

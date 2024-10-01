@@ -20,8 +20,14 @@ http.createServer((req, res) => {
     } else {
       res.write(getPage(`${req.url}.html`))
     }
-
-  } else {
+  } else if (fileType === '.js') {
+    res.setHeader('Content-type', "text/javascript")
+    res.write(getPage(req.url));
+  } else if (fileType === '.css') {
+    res.setHeader('Content-type', "text/css")
+    res.write(getPage(req.url));
+  }
+  else {
     res.writeHead(404)
   }
   res.end()
