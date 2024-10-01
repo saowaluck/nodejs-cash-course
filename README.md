@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/88539234-0858-481f-8a79-0c404738d8b1)
 
 - Use default module from Node.js by using `module`
 - Use built-in **PATH**: `basename`, `dirname`, `extname`
